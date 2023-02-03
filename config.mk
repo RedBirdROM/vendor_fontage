@@ -79,7 +79,11 @@ PRODUCT_COPY_FILES += \
     vendor/fontage/fonts/prebuilt/fontagev4lock/BalticDune.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BalticDune.ttf \
     vendor/fontage/fonts/prebuilt/fontagev4lock/BalticStorm.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BalticStorm.ttf \
     vendor/fontage/fonts/prebuilt/fontagev4lock/Cafe24Decoshadow.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Cafe24Decoshadow.ttf \
+    vendor/fontage/fonts/prebuilt/fontagev4lock/Cat.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Cat.ttf \
+    vendor/fontage/fonts/prebuilt/fontagev4lock/Concentrate.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Concentrate.ttf \
     vendor/fontage/fonts/prebuilt/fontagev4lock/Forta.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Forta.ttf \
+    vendor/fontage/fonts/prebuilt/fontagev4lock/KarmaticArcade.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/KarmaticArcade.ttf \
+    vendor/fontage/fonts/prebuilt/fontagev4lock/LiquidCrystal-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LiquidCrystal-Bold.ttf \
     vendor/fontage/fonts/prebuilt/fontagev4lock/MuseoModerno.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/MuseoModerno.ttf \
     vendor/fontage/fonts/prebuilt/fontagev4lock/mx-wasgard.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/mx-wasgard.ttf \
     vendor/fontage/fonts/prebuilt/fontagev4lock/NeptunCAT.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NeptunCAT.ttf \
@@ -163,6 +167,10 @@ PRODUCT_PACKAGES += \
 
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
+    ClockFontCatOverlay \
+    ClockFontConcentrateOverlay \
+    ClockFontKarmaticArcadeOverlay \
+    ClockFontLiquidCrystalOverlay \
     ClockFontAdventProOverlay \
     ClockFontAtkinsonOverlay \
     ClockFontBigNoodleTiltingOverlay \
