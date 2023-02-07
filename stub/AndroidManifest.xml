@@ -1,7 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.customization.themes"
-    android:versionCode="1"
-    android:versionName="1.0">
-
-    <application android:label="Shishufied Stub" android:icon="@mipmap/ic_launcher" android:hasCode="false" />
-</manifest>
