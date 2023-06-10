@@ -107,10 +107,16 @@ PRODUCT_COPY_FILES += \
     vendor/fontage/fonts/prebuilt/circularp404/Circular-Std-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Circular-Std-Italic.ttf \
     vendor/fontage/fonts/prebuilt/circularp404/Circular-Std-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Circular-Std-Medium.ttf \
     vendor/fontage/fonts/prebuilt/circularp404/Circular-Std-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Circular-Std-MediumItalic.ttf \
-    vendor/fontage/fonts/prebuilt/circularp404/Circular-Std-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Circular-Std-Regular.ttf
+    vendor/fontage/fonts/prebuilt/circularp404/Circular-Std-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Circular-Std-Regular.ttf \
+    vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Bold.ttf \
+    vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-BoldItalic.ttf \
+    vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Italic.ttf \
+    vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Regular.ttf
 
 # Fonts required overlays packages
 PRODUCT_PACKAGES += \
+    FontAtkinsonOverlay \
+    FontAltAtkinsonOverlay \
     FontAuthenticSansOverlay \
     FontBigNoodleOverlay \
     FontBikoHankenOverlay \
@@ -158,6 +164,7 @@ PRODUCT_PACKAGES += \
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
     ClockFontAdventProOverlay \
+    ClockFontAtkinsonOverlay \
     ClockFontBigNoodleTiltingOverlay \
     ClockFontCherrySwashOverlay \
     ClockFontHeadlineOverlay \
