@@ -117,7 +117,13 @@ PRODUCT_COPY_FILES += \
     vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Italic.ttf \
     vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Regular.ttf \
     vendor/fontage/fonts/prebuilt/iosfontfamily/SFRoundedTime-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SFRoundedTime-Medium.ttf \
-    vendor/fontage/fonts/prebuilt/iosfontfamily/SFSoftTime-Semibold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SFSoftTime-Semibold.ttf
+    vendor/fontage/fonts/prebuilt/iosfontfamily/SFSoftTime-Semibold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SFSoftTime-Semibold.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/26FGalaxySans.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/26FGalaxySans.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/Alexana.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Alexana.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/Exodar.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exodar.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/KroppenFwO.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/KroppenFwO.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/KroppenOutline.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/KroppenOutline.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/KroppenRound.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/KroppenRound.ttf
 
 # Fonts required overlays packages
 PRODUCT_PACKAGES += \
@@ -169,6 +175,12 @@ PRODUCT_PACKAGES += \
 
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
+    ClockFont26FGalaxySansOverlay \
+    ClockFontAlexanaOverlay \
+    ClockFontExodarOverlay \
+    ClockFontKroppenFwOOverlay \
+    ClockFontKroppenOutlineOverlay \
+    ClockFontKroppenRoundOverlay \
     ClockFontCatOverlay \
     ClockFontConcentrateOverlay \
     ClockFontKarmaticArcadeOverlay \
