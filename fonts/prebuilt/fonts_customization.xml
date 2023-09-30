@@ -23,6 +23,14 @@
 
     <alias name="gobold-light-sys" to="gobold-sys" weight="300" />
 
+    <!-- IOS font family -->
+    <family customizationType="new-named-family" name="sfroundedtime">
+      <font>SFRoundedTime-Medium.ttf</font>
+    </family>
+    <family customizationType="new-named-family" name="sfsofttime-semibold">
+      <font>SFSoftTime-Semibold.ttf</font>
+    </family>
+
     <!-- Lockscren Fonts -->
     <family customizationType="new-named-family" name="cat">
         <font weight="300" style="normal">Cat.ttf</font>

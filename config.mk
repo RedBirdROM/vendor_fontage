@@ -115,7 +115,9 @@ PRODUCT_COPY_FILES += \
     vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Bold.ttf \
     vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-BoldItalic.ttf \
     vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Italic.ttf \
-    vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Regular.ttf
+    vendor/fontage/fonts/prebuilt/atkinson/AtkinsonHyperlegible-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/AtkinsonHyperlegible-Regular.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/SFRoundedTime-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SFRoundedTime-Medium.ttf \
+    vendor/fontage/fonts/prebuilt/iosfontfamily/SFSoftTime-Semibold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SFSoftTime-Semibold.ttf
 
 # Fonts required overlays packages
 PRODUCT_PACKAGES += \
@@ -185,6 +187,8 @@ PRODUCT_PACKAGES += \
     ClockFontGinoraSansOverlay \
     ClockFontPermanentMarkerOverlay \
     ClockFontRivieraOverlay \
+    ClockFontSFRoundedTimeOverlay \
+    ClockFontSFSoftTimeOverlay \
     ClockFontUnionOverlay \
     ClockFontVG5000Overlay \
     ClockFont3DIsometricBlackOverlay \
