@@ -1067,4 +1067,21 @@
   <alias name="storopia-semi-bold" to="storopia" weight="600" />
   <alias name="storopia-bold" to="storopia" weight="700" />
 
+<!-- Raleway -->
+  <family customizationType="new-named-family" name="raleway">
+    <font weight="100" style="normal">Raleway-Thin.ttf</font>
+    <font weight="100" style="italic">Raleway-ThinItalic.ttf</font>
+    <font weight="300" style="normal">Raleway-Light.ttf</font>
+    <font weight="300" style="italic">Raleway-LightItalic.ttf</font>
+    <font weight="400" style="normal">Raleway-Regular.ttf</font>
+    <font weight="400" style="italic">Raleway-Italic.ttf</font>
+    <font weight="500" style="normal">Raleway-Medium.ttf</font>
+    <font weight="500" style="italic">Raleway-MediumItalic.ttf</font>
+    <font weight="700" style="normal">Raleway-Bold.ttf</font>
+    <font weight="700" style="italic">Raleway-BoldItalic.ttf</font>
+    <font weight="900" style="normal">Raleway-Black.ttf</font>
+    <font weight="900" style="italic">Raleway-BlackItalic.ttf</font>
+  </family>
+
+
 </fonts-modification>

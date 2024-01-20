@@ -171,7 +171,8 @@ PRODUCT_PACKAGES += \
     FontGiganticFSHezaedrusOverlay \
     FontJicaletaOverlay \
     FontJustSansOverlay \
-    FontPunkMonoOverlay
+    FontPunkMonoOverlay \
+    FontRalewayOverlay \
 
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
@@ -216,4 +217,5 @@ PRODUCT_PACKAGES += \
     ClockFontNeptunCATOverlay \
     ClockFontProdeltCoOverlay \
     ClockFontRubikGlitchOverlay \
-    ClockFontTourneyMediumOverlay
+    ClockFontTourneyMediumOverlay \
+    ClockFontRaleway \
